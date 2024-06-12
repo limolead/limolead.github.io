@@ -3,16 +3,28 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.5.0/semantic.min.css" 
+	integrity="sha512-KXol4x3sVoO+8ZsWPFI/r5KBVB/ssCGB5tsv2nVOKwLg33wTFP3fmnXa47FdSVIshVTgsYk/1734xSk9aFIa4A==" 
+	crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Limo Lead LLC</title>
 	<style>
-	  html {
-	     font-family: Roboto, "Century Gothic", sans-serif;
+	  html, body {
+		 background-image: url("https://objectstorage.ap-singapore-1.oraclecloud.com/n/axyrkkg77yct/b/limolead/o/misc%2Fbackground.jpg");
+		 background-attachment: fixed;
+		 background-blend-mode: multiply;
+		 background-repeat: no-repeat;
+		 background-position: center;
+		 background-size: cover;
 	  }
-	  
+	
 	  #main_div {
 	     display: flex;
-		 flex-direction: row;
+		 flex-direction: column;
 		 justify-content: center;
+		 align-items: center;
+		 position: relative;
+		 top: 0;
+		 bottom: 0;
 	  }
 	  
 	  #copyright {
@@ -24,15 +36,16 @@
 		 bottom: 0;
 		 left: 0;
 		 right: 0;
+		 margin-bottom: 2rem;
 	  }
 	</style>
   </head>
   <body>
     <div id="main_div">
-	   <h2>Limo Lead LLC</h2>
+	   <img src="https://objectstorage.ap-singapore-1.oraclecloud.com/n/axyrkkg77yct/b/limolead/o/logo%2FLogo.png" alt="logo" width="200px" />
 	</div>
   </body>
   <footer>
-     <p id="copyright">&copy; 2024, Limo Lead LLC</p>
+     <p id="copyright" class="ui paragraph">&copy; 2024, Limo Lead LLC</p>
   </footer>
 </html>
